@@ -1,7 +1,7 @@
 # WorldStreetsRenderLayer
 
 ### Description
-Working ...
+This is a render layer for world streets data.
 
 ![Screenshot](https://github.com/Howard-ThinkGeo/WorldStreetsRenderLayer/blob/master/ScreenShot.png)
 
