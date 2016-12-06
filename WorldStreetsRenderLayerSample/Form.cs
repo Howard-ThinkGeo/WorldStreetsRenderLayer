@@ -20,7 +20,7 @@ namespace WorldStreetsRenderLayerSample
         private void FormLoad(object sender, EventArgs e)
         {
             winformsMap.MapUnit = GeographyUnit.Meter;
-            winformsMap.CurrentExtent = new RectangleShape(-13086298.60, 7339062.72, -8111177.75, 2853137.62);
+            winformsMap.CurrentExtent = new RectangleShape(-10801705.3653354, 3895575.29512613, -10750034.0634737, 3838706.28834338);
 
             LayerOverlay layerOverlay = new LayerOverlay();
             WorldStreetsRenderLayer worldStreetsRenderLayer = new WorldStreetsRenderLayer(sourceDataDirectory);
