@@ -2,17 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WorldStreetsRenderer-Pcl", "WorldStreetsRenderer-Pcl\WorldStreetsRenderer-Pcl.shproj", "{787E0C06-D6F3-4739-AE1F-428EC60E2533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStreetsRenderLayerSample", "WorldStreetsRenderLayerSample\WorldStreetsRenderLayerSample.csproj", "{958CFB4D-B515-430A-ADAD-629EB662B80E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStreetsRenderLayerSample", "WorldStreetsRenderLayerSample\WorldStreetsRenderLayerSample.csproj", "{2AE3F31E-2750-4015-98BF-2759A844E76E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStreetsRenderer-WLM", "WorldStreetsRenderer-WLM\WorldStreetsRenderer-WLM.csproj", "{E72CD836-485D-40F7-8E96-3C4C163C1A2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldStreetsRenderer", "WorldStreetsRenderer\WorldStreetsRenderer.csproj", "{E72CD836-485D-40F7-8E96-3C4C163C1A2F}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		WorldStreetsRenderer-Pcl\WorldStreetsRenderer-Pcl.projitems*{787e0c06-d6f3-4739-ae1f-428ec60e2533}*SharedItemsImports = 13
-		WorldStreetsRenderer-Pcl\WorldStreetsRenderer-Pcl.projitems*{e72cd836-485d-40f7-8e96-3c4c163c1a2f}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
@@ -24,22 +18,22 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Debug|x86.Build.0 = Debug|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.GISEditorUnitTest|Any CPU.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.GISEditorUnitTest|Any CPU.Build.0 = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.GISEditorUnitTest|x86.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.GISEditorUnitTest|x86.Build.0 = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Production|Any CPU.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Production|Any CPU.Build.0 = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Production|x86.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Production|x86.Build.0 = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Release|x86.ActiveCfg = Release|Any CPU
-		{2AE3F31E-2750-4015-98BF-2759A844E76E}.Release|x86.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Debug|x86.Build.0 = Debug|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.GISEditorUnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.GISEditorUnitTest|Any CPU.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.GISEditorUnitTest|x86.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.GISEditorUnitTest|x86.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Production|Any CPU.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Production|x86.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Production|x86.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Release|x86.ActiveCfg = Release|Any CPU
+		{958CFB4D-B515-430A-ADAD-629EB662B80E}.Release|x86.Build.0 = Release|Any CPU
 		{E72CD836-485D-40F7-8E96-3C4C163C1A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E72CD836-485D-40F7-8E96-3C4C163C1A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72CD836-485D-40F7-8E96-3C4C163C1A2F}.Debug|x86.ActiveCfg = Debug|Any CPU
