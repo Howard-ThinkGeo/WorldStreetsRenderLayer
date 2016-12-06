@@ -47,60 +47,60 @@ namespace ThinkGeo.MapSuite.Layers
             dynamicLayers = new Collection<WorldStreetsShapeFileFeatureLayer>();
 
             globalFiles = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-            globalFiles.Add("cover", "                  " + @"\World\physical\cover.shp");
-            globalFiles.Add("ocean", "                  " + @"\World\physical\ocean.shp");
-            globalFiles.Add("evergreen", "              " + @"\World\physical\evergreen.shp");
-            globalFiles.Add("sand", "                   " + @"\World\physical\sand.shp");
-            globalFiles.Add("innerwater", "             " + @"\World\physical\innerwater.shp");
-            globalFiles.Add("innerwaterMinUSA", "       " + @"\World\physical\innerwaterMinUSA.shp");
-            globalFiles.Add("lawrenceriver", "          " + @"\World\Physical\lawrenceriver.shp");
-            globalFiles.Add("permanentriver", "         " + @"\World\Physical\permanentriver.shp");
-            globalFiles.Add("permanentriverMinusUSA", " " + @"\World\Physical\permanentriverMinusUSA.shp");
-            globalFiles.Add("oceantext", "              " + @"\World\physical\oceantext.shp");
-            globalFiles.Add("lake", "                   " + @"\World\physical\lake.shp");
-            globalFiles.Add("depthline", "              " + @"\World\physical\depthline.shp");
-            globalFiles.Add("cntry02", "                " + @"\World\human\cntry02.shp");
-            globalFiles.Add("urbanareaMinUSA", "        " + @"\World\human\urbanareaMinUSA.shp");
-            globalFiles.Add("primaryborder", "          " + @"\World\human\primaryborder.shp");
-            globalFiles.Add("internationalborder", "    " + @"\World\human\internationalborder.shp");
-            globalFiles.Add("internationalborder_dtl", "" + @"\World\human\internationalborder_dtl.shp");
-            globalFiles.Add("contestedborder", "        " + @"\World\human\contestedborder.shp");
-            globalFiles.Add("railMinusUSA", "           " + @"\World\human\railMinusUSA.shp");
-            globalFiles.Add("road", "                   " + @"\World\human\road.shp");
-            globalFiles.Add("roadMinUSACan", "          " + @"\World\human\roadMinUSACan.shp");
-            globalFiles.Add("airport", "                " + @"\World\human\airport.shp");
-            globalFiles.Add("capital", "                " + @"\World\human\capital.shp");
-            globalFiles.Add("noncapital", "             " + @"\World\human\noncapital.shp");
-            globalFiles.Add("settlement", "             " + @"\World\human\settlement.shp");
+            globalFiles.Add("cover", "                  " + @"/World/physical/cover.shp");
+            globalFiles.Add("ocean", "                  " + @"/World/physical/ocean.shp");
+            globalFiles.Add("evergreen", "              " + @"/World/physical/evergreen.shp");
+            globalFiles.Add("sand", "                   " + @"/World/physical/sand.shp");
+            globalFiles.Add("innerwater", "             " + @"/World/physical/innerwater.shp");
+            globalFiles.Add("innerwaterMinUSA", "       " + @"/World/physical/innerwaterMinUSA.shp");
+            globalFiles.Add("lawrenceriver", "          " + @"/World/Physical/lawrenceriver.shp");
+            globalFiles.Add("permanentriver", "         " + @"/World/Physical/permanentriver.shp");
+            globalFiles.Add("permanentriverMinusUSA", " " + @"/World/Physical/permanentriverMinusUSA.shp");
+            globalFiles.Add("oceantext", "              " + @"/World/physical/oceantext.shp");
+            globalFiles.Add("lake", "                   " + @"/World/physical/lake.shp");
+            globalFiles.Add("depthline", "              " + @"/World/physical/depthline.shp");
+            globalFiles.Add("cntry02", "                " + @"/World/human/cntry02.shp");
+            globalFiles.Add("urbanareaMinUSA", "        " + @"/World/human/urbanareaMinUSA.shp");
+            globalFiles.Add("primaryborder", "          " + @"/World/human/primaryborder.shp");
+            globalFiles.Add("internationalborder", "    " + @"/World/human/internationalborder.shp");
+            globalFiles.Add("internationalborder_dtl", "" + @"/World/human/internationalborder_dtl.shp");
+            globalFiles.Add("contestedborder", "        " + @"/World/human/contestedborder.shp");
+            globalFiles.Add("railMinusUSA", "           " + @"/World/human/railMinusUSA.shp");
+            globalFiles.Add("road", "                   " + @"/World/human/road.shp");
+            globalFiles.Add("roadMinUSACan", "          " + @"/World/human/roadMinUSACan.shp");
+            globalFiles.Add("airport", "                " + @"/World/human/airport.shp");
+            globalFiles.Add("capital", "                " + @"/World/human/capital.shp");
+            globalFiles.Add("noncapital", "             " + @"/World/human/noncapital.shp");
+            globalFiles.Add("settlement", "             " + @"/World/human/settlement.shp");
 
-            globalFiles.Add("urban_dtl", "              " + @"\USA\urban_dtl.shp");
-            globalFiles.Add("fedlandnps", "             " + @"\USA\fedlandnps.shp");
-            globalFiles.Add("fedlandnpsclip", "         " + @"\USA\fedlandnpsclip.shp");
-            globalFiles.Add("fedlandfs", "              " + @"\USA\fedlandfs.shp");
-            globalFiles.Add("fedlandfws", "             " + @"\USA\fedlandfws.shp");
-            globalFiles.Add("fedlanddod", "             " + @"\USA\fedlanddod.shp");
-            globalFiles.Add("fedlandbia", "             " + @"\USA\fedlandbia.shp");
-            globalFiles.Add("stateborders", "           " + @"\USA\stateborders.shp");
-            globalFiles.Add("rail100k", "               " + @"\USA\rail100k.shp");
-            globalFiles.Add("ushigh1", "                " + @"\USA\ushigh1.shp");
-            globalFiles.Add("highwaynetwork1_50m", "    " + @"\USA\highwaynetwork1_50m.shp");
-            globalFiles.Add("HighwayNetwork2_1b", "     " + @"\USA\HighwayNetwork2_1b.shp");
-            globalFiles.Add("HighwayNetwork2_2", "      " + @"\USA\HighwayNetwork2_2.shp");
-            globalFiles.Add("highwaynetwork1_10m", "    " + @"\USA\highwaynetwork1_10m.shp");
-            globalFiles.Add("HighwayNetwork1", "        " + @"\USA\HighwayNetwork1.shp");
-            globalFiles.Add("cities_c2", "              " + @"\USA\cities_c2.shp");
-            globalFiles.Add("cities_e", "               " + @"\USA\cities_e.shp");
-            globalFiles.Add("statetext", "              " + @"\USA\statetext.shp");
-            globalFiles.Add("gchurch", "                " + @"\USA\POI\gchurch.shp");
-            globalFiles.Add("ggolf", "                  " + @"\USA\POI\ggolf.shp");
-            globalFiles.Add("ghospitl", "               " + @"\USA\POI\ghospitl.shp");
+            globalFiles.Add("urban_dtl", "              " + @"/USA/urban_dtl.shp");
+            globalFiles.Add("fedlandnps", "             " + @"/USA/fedlandnps.shp");
+            globalFiles.Add("fedlandnpsclip", "         " + @"/USA/fedlandnpsclip.shp");
+            globalFiles.Add("fedlandfs", "              " + @"/USA/fedlandfs.shp");
+            globalFiles.Add("fedlandfws", "             " + @"/USA/fedlandfws.shp");
+            globalFiles.Add("fedlanddod", "             " + @"/USA/fedlanddod.shp");
+            globalFiles.Add("fedlandbia", "             " + @"/USA/fedlandbia.shp");
+            globalFiles.Add("stateborders", "           " + @"/USA/stateborders.shp");
+            globalFiles.Add("rail100k", "               " + @"/USA/rail100k.shp");
+            globalFiles.Add("ushigh1", "                " + @"/USA/ushigh1.shp");
+            globalFiles.Add("highwaynetwork1_50m", "    " + @"/USA/highwaynetwork1_50m.shp");
+            globalFiles.Add("HighwayNetwork2_1b", "     " + @"/USA/HighwayNetwork2_1b.shp");
+            globalFiles.Add("HighwayNetwork2_2", "      " + @"/USA/HighwayNetwork2_2.shp");
+            globalFiles.Add("highwaynetwork1_10m", "    " + @"/USA/highwaynetwork1_10m.shp");
+            globalFiles.Add("HighwayNetwork1", "        " + @"/USA/HighwayNetwork1.shp");
+            globalFiles.Add("cities_c2", "              " + @"/USA/cities_c2.shp");
+            globalFiles.Add("cities_e", "               " + @"/USA/cities_e.shp");
+            globalFiles.Add("statetext", "              " + @"/USA/statetext.shp");
+            globalFiles.Add("gchurch", "                " + @"/USA/POI/gchurch.shp");
+            globalFiles.Add("ggolf", "                  " + @"/USA/POI/ggolf.shp");
+            globalFiles.Add("ghospitl", "               " + @"/USA/POI/ghospitl.shp");
 
-            globalFiles.Add("provinceborder", "         " + @"\Canada\provinceborder.shp");
-            globalFiles.Add("CanadaStreets", "          " + @"\Canada\CanadaStreets.shp");
-            globalFiles.Add("provincetext", "           " + @"\Canada\provincetext.shp");
-            globalFiles.Add("canhwy", "                 " + @"\Canada\canhwy.shp");
-            globalFiles.Add("highway2", "               " + @"\Canada\highway2.shp");
-            globalFiles.Add("highway1", "               " + @"\Canada\highway1.shp");
+            globalFiles.Add("provinceborder", "         " + @"/Canada/provinceborder.shp");
+            globalFiles.Add("CanadaStreets", "          " + @"/Canada/CanadaStreets.shp");
+            globalFiles.Add("provincetext", "           " + @"/Canada/provincetext.shp");
+            globalFiles.Add("canhwy", "                 " + @"/Canada/canhwy.shp");
+            globalFiles.Add("highway2", "               " + @"/Canada/highway2.shp");
+            globalFiles.Add("highway1", "               " + @"/Canada/highway1.shp");
 
             LoadLayers();
 
@@ -154,7 +154,7 @@ namespace ThinkGeo.MapSuite.Layers
             RenderSymbolLayer("cover");
             RenderSymbolLayer("ocean");
             RenderSymbolLayer("cntry02");
-            LoadStateSymbolLayers(@"USA\ctycu");
+            LoadStateSymbolLayers(@"USA/ctycu");
             RenderSymbolLayer("urbanareaMinUSA");
             RenderSymbolLayer("urban_dtl");
             RenderSymbolLayer("evergreen");
@@ -171,7 +171,7 @@ namespace ThinkGeo.MapSuite.Layers
             RenderSymbolLayer("permanentriver");
             RenderSymbolLayer("permanentriverMinusUSA");
             RenderSymbolLayer("lake");
-            LoadStateSymbolLayers(@"USA\wat");
+            LoadStateSymbolLayers(@"USA/wat");
             RenderSymbolLayer("stateborders");
             RenderSymbolLayer("provinceborder");
             RenderSymbolLayer("primaryborder");
@@ -234,7 +234,7 @@ namespace ThinkGeo.MapSuite.Layers
             RenderLabelLayer("fedlanddod");
             RenderLabelLayer("innerwater");
             RenderLabelLayer("innerwaterMinUSA");
-            LoadStateLabelLayers(@"USA\wat");
+            LoadStateLabelLayers(@"USA/wat");
             RenderLabelLayer("statetext");
             RenderLabelLayer("provincetext");
             RenderLabelLayer("oceantext");
@@ -1041,11 +1041,11 @@ namespace ThinkGeo.MapSuite.Layers
         {
             IconValueStyle iconValueStyle = new IconValueStyle("Admn_class");
 
-            IconValueItem item1 = new IconValueItem("Interstate", dataFolder + @"\Images\Small_Interstate_ThinOutline_1.gif", new TextStyle("Name", new GeoFont("Arial", 7, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
+            IconValueItem item1 = new IconValueItem("Interstate", dataFolder + @"/Images/Small_Interstate_ThinOutline_1.gif", new TextStyle("Name", new GeoFont("Arial", 7, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
             item1.TextValueLengthMin = 1;
             item1.TextValueLengthMax = 2;
 
-            IconValueItem item2 = new IconValueItem("Interstate", dataFolder + @"\Images\Small_Interstate_ThinOutline_2.gif", new TextStyle("Name", new GeoFont("Arial", 7, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
+            IconValueItem item2 = new IconValueItem("Interstate", dataFolder + @"/Images/Small_Interstate_ThinOutline_2.gif", new TextStyle("Name", new GeoFont("Arial", 7, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
             item2.TextValueLengthMin = 3;
             item2.TextValueLengthMax = 4;
 
@@ -1114,7 +1114,7 @@ namespace ThinkGeo.MapSuite.Layers
 
             labelLayer.DrawingQuality = DrawingQuality.CanvasSettings;
 
-            IconStyle iconStyle = new IconStyle(dataFolder + @"\Images\canada_hwy.gif", "Rtnumber1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black));
+            IconStyle iconStyle = new IconStyle(dataFolder + @"/Images/canada_hwy.gif", "Rtnumber1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black));
 
             iconStyle.TextLineSegmentRatio = 2;
             iconStyle.DuplicateRule = LabelDuplicateRule.UnlimitedDuplicateLabels;
@@ -1134,7 +1134,7 @@ namespace ThinkGeo.MapSuite.Layers
 
             labelLayer.DrawingQuality = DrawingQuality.CanvasSettings;
 
-            IconStyle iconStyle = new IconStyle(dataFolder + @"\Images\canada_road.gif", "Rtnumber1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black));
+            IconStyle iconStyle = new IconStyle(dataFolder + @"/Images/canada_road.gif", "Rtnumber1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black));
 
             iconStyle.TextLineSegmentRatio = 2;
             iconStyle.DuplicateRule = LabelDuplicateRule.UnlimitedDuplicateLabels;
@@ -1211,31 +1211,31 @@ namespace ThinkGeo.MapSuite.Layers
         {
             IconValueStyle iconValueStyle = new IconValueStyle("Signt1");
 
-            IconValueItem item1 = new IconValueItem("I", dataFolder + @"\Images\Interstate_ThinOutline_1.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item1 = new IconValueItem("I", dataFolder + @"/Images/Interstate_ThinOutline_1.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item1.TextValueLengthMin = 1;
             item1.TextValueLengthMax = 2;
 
-            IconValueItem item2 = new IconValueItem("I", dataFolder + @"\Images\Interstate_ThinOutline_2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item2 = new IconValueItem("I", dataFolder + @"/Images/Interstate_ThinOutline_2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item2.TextValueLengthMin = 3;
             item2.TextValueLengthMax = 4;
 
-            IconValueItem item3 = new IconValueItem("S", dataFolder + @"\Images\state-oval.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item3 = new IconValueItem("S", dataFolder + @"/Images/state-oval.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item3.TextValueLengthMin = 1;
             item3.TextValueLengthMax = 2;
 
-            IconValueItem item4 = new IconValueItem("S", dataFolder + @"\Images\state-oval-2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item4 = new IconValueItem("S", dataFolder + @"/Images/state-oval-2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item4.TextValueLengthMin = 3;
             item4.TextValueLengthMax = 5;
 
-            IconValueItem item5 = new IconValueItem("U", dataFolder + @"\Images\ushwy-1.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item5 = new IconValueItem("U", dataFolder + @"/Images/ushwy-1.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item5.TextValueLengthMin = 1;
             item5.TextValueLengthMax = 2;
 
-            IconValueItem item6 = new IconValueItem("U", dataFolder + @"\Images\ushwy-2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item6 = new IconValueItem("U", dataFolder + @"/Images/ushwy-2.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item6.TextValueLengthMin = 3;
             item6.TextValueLengthMax = 3;
 
-            IconValueItem item7 = new IconValueItem("U", dataFolder + @"\Images\ushwy-3.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
+            IconValueItem item7 = new IconValueItem("U", dataFolder + @"/Images/ushwy-3.gif", new TextStyle("Signn1", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(geoColor)));
             item7.TextValueLengthMin = 4;
             item7.TextValueLengthMax = 5;
 
@@ -1308,17 +1308,17 @@ namespace ThinkGeo.MapSuite.Layers
             // Only show major airpoint.
             ValueStyle valueStyle1 = new ValueStyle();
             valueStyle1.ColumnName = "USE";
-            valueStyle1.ValueItems.Add(new ValueItem("8", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size2.png"))));
-            valueStyle1.ValueItems.Add(new ValueItem("22", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size2.png"))));
-            valueStyle1.ValueItems.Add(new ValueItem("49", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size2.png"))));
+            valueStyle1.ValueItems.Add(new ValueItem("8", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size2.png"))));
+            valueStyle1.ValueItems.Add(new ValueItem("22", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size2.png"))));
+            valueStyle1.ValueItems.Add(new ValueItem("49", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size2.png"))));
 
             ValueStyle valueStyle2 = new ValueStyle();
             valueStyle2.ColumnName = "USE";
-            valueStyle2.ValueItems.Add(new ValueItem("0", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size3.png"))));
-            valueStyle2.ValueItems.Add(new ValueItem("8", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size4.png"))));
-            valueStyle2.ValueItems.Add(new ValueItem("22", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size4.png"))));
-            valueStyle2.ValueItems.Add(new ValueItem("49", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size4.png"))));
-            valueStyle2.ValueItems.Add(new ValueItem("999", new PointStyle(new GeoImage(dataFolder + @"\Images\airport_small_size3.png"))));
+            valueStyle2.ValueItems.Add(new ValueItem("0", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size3.png"))));
+            valueStyle2.ValueItems.Add(new ValueItem("8", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size4.png"))));
+            valueStyle2.ValueItems.Add(new ValueItem("22", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size4.png"))));
+            valueStyle2.ValueItems.Add(new ValueItem("49", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size4.png"))));
+            valueStyle2.ValueItems.Add(new ValueItem("999", new PointStyle(new GeoImage(dataFolder + @"/Images/airport_small_size3.png"))));
 
             layer.ZoomLevelSet.ZoomLevel10.CustomStyles.Add(valueStyle1);
             layer.ZoomLevelSet.ZoomLevel10.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level12;
@@ -2065,7 +2065,7 @@ namespace ThinkGeo.MapSuite.Layers
         {
             if (StateLayer.Contains("ctycu"))
             {
-                string[] folders = Directory.GetDirectories(dataFolder + "\\" + StateLayer);
+                string[] folders = Directory.GetDirectories(dataFolder + "//" + StateLayer);
                 foreach (string folder in folders)
                 {
                     string[] files = Directory.GetFiles(folder, "*.shp");
@@ -2082,7 +2082,7 @@ namespace ThinkGeo.MapSuite.Layers
             }
             else
             {
-                string[] folders = Directory.GetDirectories(dataFolder + "\\" + StateLayer);
+                string[] folders = Directory.GetDirectories(dataFolder + "//" + StateLayer);
                 foreach (string folder in folders)
                 {
                     string[] files = Directory.GetFiles(folder, "*.shp");
@@ -2103,7 +2103,7 @@ namespace ThinkGeo.MapSuite.Layers
         {
             if (StateLayer.Contains("wat"))
             {
-                string[] folders = Directory.GetDirectories(dataFolder + "\\" + StateLayer);
+                string[] folders = Directory.GetDirectories(dataFolder + "//" + StateLayer);
                 foreach (string folder in folders)
                 {
                     string[] files = Directory.GetFiles(folder, "*.shp");
@@ -2187,7 +2187,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadLowerRoadSymbolLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\tlka\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//tlka//");
             Collection<string> files70 = new Collection<string>();
             Collection<string> files60 = new Collection<string>();
             Collection<string> files50 = new Collection<string>();
@@ -2267,7 +2267,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadPoiLptSymbolLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\LPT\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//LPT//");
             foreach (string folder in folders)
             {
                 string[] files = Directory.GetFiles(folder, "*.shp");
@@ -2294,7 +2294,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadPoiLptLabelLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\LPT\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//LPT//");
             foreach (string folder in folders)
             {
                 string[] files = Directory.GetFiles(folder, "*.shp");
@@ -2322,7 +2322,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadHighRoadSymbolLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\tlka\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//tlka//");
             Collection<string> files10 = new Collection<string>();
             Collection<string> files20 = new Collection<string>();
 
@@ -2357,7 +2357,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadHighRoadLabelLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\tlka\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//tlka//");
             Collection<string> files10 = new Collection<string>();
             Collection<string> files20 = new Collection<string>();
 
@@ -2413,7 +2413,7 @@ namespace ThinkGeo.MapSuite.Layers
 
         private void LoadLowerRoadLabelLayers()
         {
-            string[] folders = Directory.GetDirectories(dataFolder + "\\USA\\tlka\\");
+            string[] folders = Directory.GetDirectories(dataFolder + "//USA//tlka//");
             Collection<string> files70 = new Collection<string>();
             Collection<string> files60 = new Collection<string>();
             Collection<string> files50 = new Collection<string>();
@@ -2914,7 +2914,7 @@ namespace ThinkGeo.MapSuite.Layers
 
             Layer.DrawingQuality = DrawingQuality.HighQuality;
 
-            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"\Images\church.png")); 
+            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"/Images/church.png")); 
             Layer.ZoomLevelSet.ZoomLevel17.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
 
             staticLayers.Add(Layer);
@@ -2940,7 +2940,7 @@ namespace ThinkGeo.MapSuite.Layers
 
             Layer.DrawingQuality = DrawingQuality.HighQuality;
 
-            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"\Images\golf.png")); 
+            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"/Images/golf.png")); 
             Layer.ZoomLevelSet.ZoomLevel17.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
 
             staticLayers.Add(Layer);
@@ -2965,7 +2965,7 @@ namespace ThinkGeo.MapSuite.Layers
             Layer.Name = "Hospital";
 
             Layer.DrawingQuality = DrawingQuality.HighQuality;
-            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"\Images\hospital_detailed.png")); 
+            Layer.ZoomLevelSet.ZoomLevel17.DefaultPointStyle = new PointStyle(new GeoImage(dataFolder + @"/Images/hospital_detailed.png")); 
             Layer.ZoomLevelSet.ZoomLevel17.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
 
             staticLayers.Add(Layer);
@@ -2989,11 +2989,11 @@ namespace ThinkGeo.MapSuite.Layers
         {
             IconValueStyle iconValueStyle = new IconValueStyle("SymbolType");
 
-            IconValueItem item1 = new IconValueItem("R", dataFolder + @"\Images\ushwy-1.gif", new TextStyle("fename", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black)));
+            IconValueItem item1 = new IconValueItem("R", dataFolder + @"/Images/ushwy-1.gif", new TextStyle("fename", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.Black)));
             item1.TextValueLengthMin = 1;
             item1.TextValueLengthMax = 5;
 
-            IconValueItem item2 = new IconValueItem("I", dataFolder + @"\Images\Interstate_ThinOutline_Wide.gif", new TextStyle("fename", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
+            IconValueItem item2 = new IconValueItem("I", dataFolder + @"/Images/Interstate_ThinOutline_Wide.gif", new TextStyle("fename", new GeoFont("Arial", 8, DrawingFontStyles.Bold), new GeoSolidBrush(GeoColor.StandardColors.White)));
             item2.TextValueLengthMin = 1;
             item2.TextValueLengthMax = 5;
 

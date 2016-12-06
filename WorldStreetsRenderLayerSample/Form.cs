@@ -1,25 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 using System.Windows.Forms;
 using ThinkGeo.MapSuite;
-using ThinkGeo.MapSuite.Shapes;
-using System.Configuration;
-using ThinkGeo.MapSuite.WinForms;
 using ThinkGeo.MapSuite.Layers;
+using ThinkGeo.MapSuite.Shapes;
+using ThinkGeo.MapSuite.WinForms;
 
 namespace WorldStreetsRenderLayerSample
 {
-    public partial class Form1 : Form
+    public partial class Form : System.Windows.Forms.Form
     {
         private string sourceDataDirectory = ConfigurationManager.AppSettings["SourceDataDirectory"];
 
-        public Form1()
+        public Form()
         {
             InitializeComponent();
         }
