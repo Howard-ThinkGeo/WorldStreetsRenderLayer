@@ -3,7 +3,8 @@
 ### Description
 This is a render layer for world streets data.
 
-![Screenshot](https://github.com/Howard-ThinkGeo/WorldStreetsRenderLayer/blob/master/ScreenShot.png)
+![Screenshot](https://github.com/Howard-ThinkGeo/WorldStreetsRenderLayer/blob/master/ScreenShotForLinux.png)
+![Screenshot](https://github.com/Howard-ThinkGeo/WorldStreetsRenderLayer/blob/master/ScreenShotForWindows.png)
 
 ### Requirements
 This sample makes use of the following NuGet Packages
