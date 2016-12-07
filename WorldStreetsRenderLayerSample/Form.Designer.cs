@@ -45,7 +45,7 @@
             this.winformsMap.MaximumScale = 80000000000000D;
             this.winformsMap.MinimumScale = 200D;
             this.winformsMap.Name = "winformsMap";
-            this.winformsMap.Size = new System.Drawing.Size(919, 475);
+            this.winformsMap.Size = new System.Drawing.Size(1008, 729);
             this.winformsMap.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.Default;
             this.winformsMap.TabIndex = 0;
             this.winformsMap.Text = "winformsMap";
@@ -57,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 475);
+            this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.winformsMap);
             this.Name = "Form";
             this.Text = "World Streets Render";
