@@ -10,7 +10,7 @@ using ThinkGeo.MapSuite.Styles;
 namespace ThinkGeo.MapSuite
 {
     public partial class OsmWorldMapKitLayer
-    {
+    { 
         protected virtual PointStyle GetPowerPolePointStyle()
         {
             return new PointStyle()
