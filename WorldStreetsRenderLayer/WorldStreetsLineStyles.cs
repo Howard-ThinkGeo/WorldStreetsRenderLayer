@@ -7,7 +7,7 @@ using ThinkGeo.MapSuite.Styles;
 
 namespace ThinkGeo.MapSuite
 {
-    public partial class OsmWorldMapKitLayer
+    public partial class WorldStreetsRenderLayer
     {
         protected virtual LineStyle GetWaterLineStyle(float outerWidth)
         {

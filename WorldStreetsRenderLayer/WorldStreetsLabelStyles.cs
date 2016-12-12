@@ -6,7 +6,7 @@ using ThinkGeo.MapSuite.Styles;
 
 namespace ThinkGeo.MapSuite
 {
-    public partial class OsmWorldMapKitLayer
+    public partial class WorldStreetsRenderLayer
     {
         protected virtual TextStyle GetGeneralPurposeTextStyle(string labelColumnName, float fontSize)
         {

@@ -10,7 +10,7 @@ using ThinkGeo.MapSuite.Styles;
 
 namespace ThinkGeo.MapSuite
 {
-    class OsmWorldMapKitCompositeStyle : CompositeStyle
+    class WorldStreetsCompositeStyle : CompositeStyle
     {
         protected override void DrawCore(IEnumerable<Feature> features, GeoCanvas canvas, Collection<SimpleCandidate> labelsInThisLayer, Collection<SimpleCandidate> labelsInAllLayers)
         {

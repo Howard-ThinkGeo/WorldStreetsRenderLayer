@@ -11,7 +11,7 @@ using ThinkGeo.MapSuite.Styles;
 namespace ThinkGeo.MapSuite
 {
     [Serializable]
-    public partial class OsmWorldMapKitLayer : Layer
+    public partial class WorldStreetsRenderLayer : Layer
     {
         private GeoCollection<FeatureLayer> layers = new GeoCollection<FeatureLayer>();
         private int srid;
@@ -21,11 +21,11 @@ namespace ThinkGeo.MapSuite
         private string connectionString;
         private string iconPath;
 
-        public OsmWorldMapKitLayer(string connectionString)
+        public WorldStreetsRenderLayer(string connectionString)
             : this(connectionString, "worldmapkit", "id", "geometry", 3857)
         { }
 
-        public OsmWorldMapKitLayer(string connectionString, string schemaName, string featureIdColumnName, string geometryColumnName, int srid)
+        public WorldStreetsRenderLayer(string connectionString, string schemaName, string featureIdColumnName, string geometryColumnName, int srid)
         {
             this.connectionString = connectionString;
             this.schemaName = schemaName;
@@ -292,7 +292,7 @@ namespace ThinkGeo.MapSuite
                 new ValueItem("aerodrome", GetAerodromeAreaStyle())
             });
 
-            OsmWorldMapKitCompositeStyle compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle compositeStyle = new WorldStreetsCompositeStyle();
             compositeStyle.Styles.Add(boundaryValueStyle);
             compositeStyle.Styles.Add(landuseValueStyle);
             compositeStyle.Styles.Add(parkValueStyle);
@@ -388,7 +388,7 @@ namespace ThinkGeo.MapSuite
                 new ValueItem("aerodrome", GetAerodromeAreaStyle())
             });
 
-            OsmWorldMapKitCompositeStyle compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle compositeStyle = new WorldStreetsCompositeStyle();
             compositeStyle.Styles.Add(boundaryValueStyle);
             compositeStyle.Styles.Add(landuseValueStyle);
             compositeStyle.Styles.Add(parkValueStyle);
@@ -499,7 +499,7 @@ namespace ThinkGeo.MapSuite
                 new ValueItem("parking", GetParkingAreaStyle())
             });
 
-            OsmWorldMapKitCompositeStyle compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle compositeStyle = new WorldStreetsCompositeStyle();
             compositeStyle.Styles.Add(boundaryValueStyle);
             compositeStyle.Styles.Add(landuseValueStyle);
             compositeStyle.Styles.Add(parkValueStyle);
@@ -629,7 +629,7 @@ namespace ThinkGeo.MapSuite
             osm_transport_polygon.ZoomLevelSet.ZoomLevel13.CustomStyles.Add(aerowayValueStyle);
             osm_transport_polygon.ZoomLevelSet.ZoomLevel13.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
 
-            OsmWorldMapKitCompositeStyle compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle compositeStyle = new WorldStreetsCompositeStyle();
             compositeStyle.Styles.Add(aerowayValueStyle);
             compositeStyle.Styles.Add(manMadeValueStyle);
 
@@ -794,7 +794,7 @@ namespace ThinkGeo.MapSuite
             buildingFilterStyle.Conditions.Add(new FilterCondition("building", "^(?!).*?$"));
             buildingFilterStyle.Styles.Add(GetBuildingAreaStyle());
 
-            OsmWorldMapKitCompositeStyle compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle compositeStyle = new WorldStreetsCompositeStyle();
             compositeStyle.Styles.Add(buildingFilterStyle);
 
             osm_construct_large_polygon.ZoomLevelSet.ZoomLevel14.CustomStyles.Add(compositeStyle);
@@ -819,7 +819,7 @@ namespace ThinkGeo.MapSuite
             shadowBuildingFilterStyle.Styles.Add(GetBuildingShadowAreaStyle(1, 1, 1));
             shadowBuildingFilterStyle.Styles.Add(GetBuildingAreaStyle());
 
-            OsmWorldMapKitCompositeStyle level16compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle level16compositeStyle = new WorldStreetsCompositeStyle();
             level16compositeStyle.Styles.Add(shadowBuildingFilterStyle);
             level16compositeStyle.Styles.Add(powerValueStyle);
 
@@ -833,7 +833,7 @@ namespace ThinkGeo.MapSuite
             shadowBuildingFilterStyle2.Styles.Add(GetGeneralPurposeTextStyle("name", 6));
             shadowBuildingFilterStyle2.Styles.Add(GetGeneralPurposeTextStyle("name:en", 6));
 
-            OsmWorldMapKitCompositeStyle level18compositeStyle = new OsmWorldMapKitCompositeStyle();
+            WorldStreetsCompositeStyle level18compositeStyle = new WorldStreetsCompositeStyle();
             level18compositeStyle.Styles.Add(shadowBuildingFilterStyle2);
             level18compositeStyle.Styles.Add(powerValueStyle);
 

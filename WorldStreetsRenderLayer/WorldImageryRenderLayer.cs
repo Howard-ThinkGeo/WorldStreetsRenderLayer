@@ -8,12 +8,12 @@ using ThinkGeo.MapSuite.Styles;
 namespace ThinkGeo.MapSuite
 {
     [Serializable]
-    public class ImageryOptimizedOsmWorldMapKitLayer : OsmWorldMapKitLayer
+    public class WorldImageryRenderLayer : WorldStreetsRenderLayer
     {
         private ShapeFileFeatureLayer countriesOutlineLayer;
         private string countriesOutlineLayerPathFilename;
 
-        public ImageryOptimizedOsmWorldMapKitLayer(string connectionString, string countriesOutlineLayerPathFilename)
+        public WorldImageryRenderLayer(string connectionString, string countriesOutlineLayerPathFilename)
             : base(connectionString, "worldmapkit", "id", "geometry", 3857)
         {
             this.countriesOutlineLayerPathFilename = countriesOutlineLayerPathFilename;

@@ -105,14 +105,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImageryOptimizedOsmWorldMapKitLayer.cs" />
+    <Compile Include="WorldImageryRenderLayer.cs" />
     <Compile Include="OneWayLineStyle.cs" />
-    <Compile Include="OsmWorldMapKitAreaStyles.cs" />
-    <Compile Include="OsmWorldMapKitCompositeStyle.cs" />
-    <Compile Include="OsmWorldMapKitLabelStyles.cs" />
-    <Compile Include="OsmWorldMapKitLayer.cs" />
-    <Compile Include="OsmWorldMapKitLineStyles.cs" />
-    <Compile Include="OsmWorldMapKitPointStyles.cs" />
+    <Compile Include="WorldStreetsAreaStyles.cs" />
+    <Compile Include="WorldStreetsCompositeStyle.cs" />
+    <Compile Include="WorldStreetsLabelStyles.cs" />
+    <Compile Include="WorldStreetsRenderLayer.cs" />
+    <Compile Include="WorldStreetsLineStyles.cs" />
+    <Compile Include="WorldStreetsPointStyles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
